@@ -1,0 +1,51 @@
+.stripe.header{
+    height: 100px;
+    width: 100%;
+    border: 1px black solid;
+}
+
+.stripe.header #logo{
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.stripe.header #buttonagain{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.stripe#game{
+    background-image: url("../Pics/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    height: 500px;
+    align-items: center;
+    padding: 0px;
+}
+
+.stripe#game .cardModel{
+    height: 150px;
+    width: 150px;
+    border: 1px black solid;
+    display: inline-block;
+    margin: 2px;
+    background-image: url("../Pics/texture.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stripe #youWon{
+    display: none;
+    font: "Trebuchet MS";
+    font-size: 50px;
+    background-color: green;
+    color: white;
+    height: auto;
+}
+
+
+}
