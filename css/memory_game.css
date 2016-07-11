@@ -11,7 +11,7 @@
     margin-left: 100px;
 }
 
-.stripe.header #buttonagain{
+.stripe.header .buttonagain{
     display: inline-block;
     margin-left: 10%;
 }
@@ -25,6 +25,7 @@
     height: 500px;
     align-items: center;
     padding: 0px;
+    max-width:1000px;
 }
 
 .stripe#game .cardModel{
@@ -39,13 +40,16 @@
 }
 
 .stripe #youWon{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
     display: none;
-    font: "Trebuchet MS";
+    font: "Trebuchet MS", "Times New Roman";
     font-size: 50px;
-    background-color: green;
-    color: white;
+    background-color: yellow;
+    color: black;
     height: auto;
 }
 
-
-}

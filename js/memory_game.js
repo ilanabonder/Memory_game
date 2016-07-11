@@ -21,6 +21,10 @@ var gameIsPaused = false;
     }
     shufflePics(allPics);
 
+function reloadPage(){
+    window.location.reload()
+}
+
 //creating my cards
 function createCards(allPics) {
     var board = document.getElementById("game");
@@ -30,6 +34,10 @@ function createCards(allPics) {
         card.addEventListener("click",clickCard);
         card.setAttribute("data-img",allPics[i] );
         board.appendChild(card);
+    }
+    var newGameBtns = document.getElementsByClassName("buttonagain");
+    for (var i=0; i<newGameBtns.length; i++){
+        newGameBtns[i].addEventListener("click",reloadPage);
     }
 }
 createCards(allPics);
